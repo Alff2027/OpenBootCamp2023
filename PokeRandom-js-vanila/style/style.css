@@ -1,0 +1,154 @@
+strong {
+  text-transform: capitalize;
+  color: #ffcc01;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  background-color: #375ca9;
+  color: #ffcc01;
+  border-radius: 6px;
+  font-size: 1.3em;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #ffcc01;
+  color: #375ca9;
+}
+
+body {
+  background-color: #f62423;
+  font-family: Helvetica, sans-serif;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo {
+  width: 500px;
+  margin: auto;
+}
+
+#dataOfPokemons {
+  text-align: center;
+  border: 5px solid #ffcc01;
+  border-radius: 10%;
+  font-size: 1.3em;
+  width: 250px;
+  height: 225px;
+  padding: 5px;
+}
+
+#numberOfPokemons {
+  text-align: center;
+  font-size: 2em;
+}
+
+#imageOfPokemon {
+  display: inline;
+}
+
+#container-data {
+  display: flex;
+  justify-content: center;
+}
+
+#numberOfPokemons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  height: 50px;
+  width: 50px;
+  display: inline;
+}
+
+.text-container {
+  display: block;
+}
+
+.footer {
+  margin-top: 75px;
+  display: flex;
+}
+
+.footer p {
+  text-align: initial;
+  color: #ffcc01;
+  font-weight: bold;
+}
+
+.social-container {
+  display: flex;
+  margin-inline-start: auto;
+}
+
+.social-container img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 425px;
+  }
+
+  #numberOfPokemons {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+
+  .footer {
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    width: 400px;
+  }
+  .social-container {
+    margin-right: 0;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+
+  #numberOfPokemons {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 300px;
+  }
+
+  #numberOfPokemons {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  button {
+    font-size: 1.1em;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .social-container {
+    margin-top: 16px;
+  }
+}
